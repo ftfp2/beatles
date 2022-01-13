@@ -1,0 +1,1 @@
+alert("informations on this website are not real and they are only made for fun and educational purposes.")

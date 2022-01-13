@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("https://images2.alphacoders.com/667/thumb-1920-667808.jpg")
+}
+
+header a{
+    display: inline;
+    margin-left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: block;
+    text-align: center;
+    height: 280px;
+}
+
+.main-content{
+    border:black 2px solid;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, rgb(255, 242, 205), rgb(243, 200, 79));
+}
+
+.header_text{
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.iiig{
+    color: rgb(1, 5, 65);
+    font-weight: bold;
+}
+
+header h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 60px;
+}
+
+.btn{
+    background-color: rgb(214, 214, 214);
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(45deg, #fafff9, #a0ff9d);
+}
+
+.img1{
+    width: 10%;
+}
+
+
+.btn span{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 2px;
+    bottom: 2.5px;
+}
+
+.dropdown_content a:hover {background-color: rgb(246, 244, 255); text-decoration: underline blueviolet;}
+.main-menu:hover .dropdown_content {display: block;}
+
+.menu{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.btn{
+    position: relative;
+    display: block;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 247, 255);
+    width: 39%;
+    z-index: 1;
+    position: relative;
+    left: 10px;
+    border-radius: 25px;
+    border: blue solid 1px;
+}
+
+.dropdown_content a {
+    padding: 12px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black
+}
+
+.about{
+    text-align: center;
+    background-color: rgb(250, 245, 209);
+    height: 200px;
+    width: 40%;
+    border-radius: 25px;
+    margin-left: 8px;
+    /*margin:auto; Pozwala na wyśrodkowanie diva */ 
+    margin-top: 30px;
+}
+
+.about span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about p{
+    padding: 20px;
+    padding-top: 7px;
+    color: darkslategray;
+}
+
+.img2{
+    width: 20%;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 20px;
+}
+
+.img3{
+    width: 25%;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 40px;
+}
+
+.img4{
+    width: 25%;
+    height: 220px;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 120px;
+}
+
+.myDiv{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(242, 249, 255);
+    border-radius: 25px;
+    margin-left: 10px;
+    width: 40%;
+    position: relative;
+    bottom: 150px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.imga{
+    width: 40%;
+    margin-left: 40px;
+}
+
+.imgb{
+    width: 40%;
+    margin-left: 40px;
+}
+
+.imgc{
+    width: 40%;
+    margin-left: 40px;
+}
+
+.imgd{
+    width: 40%;
+    margin-left: 40px;
+}
